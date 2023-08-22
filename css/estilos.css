@@ -36,13 +36,13 @@ a{
     }
 
 .imagenes{    
-            display:grid;
-            grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
-            grid-template-rows:auto;
-            gap: 10px;
-            width: 100%; /* Porcentaje */
-            max-width: 100%; /* Para asegurarse de que la imagen no se desborde */
-            margin: 3px;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+    grid-template-rows:auto;
+    gap: 10px;
+    width: 100%; /* Porcentaje */
+    max-width: 100%; /* Para asegurarse de que la imagen no se desborde */
+    margin: 3px;   
 
 }
 
@@ -80,6 +80,11 @@ input{
     margin-bottom: 15px;
     font-size: 250%;
     }
+
+.linea{
+    display: flex;
+            flex-direction: row;
+}
 
     /* uso de flex para el footer del index */
 @media screen and (min-width:600px) {
