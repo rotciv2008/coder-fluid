@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding:0;
+    box-sizing: border-box;
         }
 html{
     font-size: 62.5%;
@@ -29,7 +30,7 @@ a{
     background-color: dimgray;
     }
 
-    .letra{
+.letra{
         font-size: 25px;
         background-color: dimgrey;
         color: rgb(79, 231, 168);
