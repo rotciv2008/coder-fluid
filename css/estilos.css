@@ -10,7 +10,7 @@ html{
 body{
     color:rgb(230, 219, 158);
     background-color: rgba(10, 10, 10, 0.959);
-    font-family: 'Edu SA Beginner',cursive,sans-serif;
+    /* font-family: 'Edu SA Beginner',cursive,sans-serif; */
     }
 
 h1, h3{
