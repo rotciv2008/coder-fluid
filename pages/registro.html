@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fluid</title>
+      <!-- uso de favicon -->
+  <link rel="shortcut icon" href="../multimedia/images/favicon.png" type="image/x-icon">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="../css/estilos.css">
+      <!-- tipografía Edu Sat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   
+    <header id="arriba" >
+        <!-- barra de navegación Bootstrap -->
+        
+        <nav class="navbar navbar-expand-lg bg-dark bg-body-tertiary ">
+            <div class="container">
+                <a href="../index.html" >
+                <img src="../multimedia/images/fluid2.jpg"alt="logo fluid1" height="60px">
+                </a> 
+               <!-- <a class="navbar-brand" href="./index.html">FLUID</a> -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <!-- <a class="nav-link letra active" aria-current="page" href="./index.html">FLUID</a> -->
+                  <a class="nav-link letra border" href="../pages/mujeres.html">MUJERES</a>
+                  <a class="nav-link letra border" href="../pages/hombres.html">HOMBRES</a>
+                  <a class="nav-link letra border" href="../pages/ninos.html">NIÑOS</a>
+                  <a class="nav-link letra border" href="../pages/registro.html">COMPRAR</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+            <h3>PARA PAGAR INGRESA CON TU MAIL Y CONTRASEÑA</h3>
+    </header>
+
+    <main>
+        <!-- Formulario Ingresar para comprar -->
+        <form class="formulario">
+            <label for="nombre">Escribe tu nombre*</label>
+            <input type="text" required name="nombre">
+            <label for="contraseña">Contraseña</label>
+            <input type="password" name="contraseña">
+            <label for="mail">Tu mail</label>
+            <input type="email" name="mail">
+            <input type="submit" value="ENVIAR">
+
+            </form>
+        <!-- Registrar para comprar -->
+        <h3>PARA REGISTRARTE LLENA TUS DATOS</h3>
+        <form class="formulario">
+            <label for="nombre1">Escribe tu nombre*</label>
+            <input type="text" required name="nombre1">
+            <label for="contraseña1">Crea una Contraseña</label>
+            <input type="password" name="contraseña1">
+            <label for="mail1">Registra tu mail</label>
+            <input type="email" name="mail1">
+            <input type="submit" value="ENVIAR">
+            <label for="terminos">Acepta términos y condiciones?</label>
+            <input type="checkbox" name required="terminos">
+        </form>
+    </main>
+
+    <footer>
+        <section>
+            <div>
+            <h3>TÉRMINOS Y CONDICIONES</h3>
+            <p>Al hacer clic en el botón 'Registrarse', declaro que he leído y acepto los términos y condiciones establecidos por FLUID Corp. Acepto de manera voluntaria y consciente que los datos proporcionados durante el registro y en el uso de los servicios serán tratados de acuerdo con la política de privacidad de FLUID Corp. </p>
+            </div>
+            <div>
+            <h3>POLÍTICA DE TRATAMIENTO DE DATOS PERSONALES</h3>
+            <p>
+                FLUID S.A., en el desarrollo de sus actividades comerciales, ha diseñado su política para el tratamiento de los datos personales, la cual refleja los principios y reglas establecidas en el Régimen General de Protección de Datos Personales con el fin de garantizar el derecho al habeas data de los titulares de información personal.</p>
+            </div>
+            <div>
+            <h3>DERECHO A RETRACTO</h3>
+            <p>El consumidor deberá comunicarse con FLUID S.A. por cualquiera de los siguientes canales de atención al cliente:
+
+                A la línea telefónica de atención 018000325643521
+                Al chat de atención al Cliente dando click aquí; en el horario de atención, de lunes a viernes de 8:00 am.5:00 pm y sábados de 9:00 am - 12:00 pm.
+                Radicar PQRS en página FLUID</p>
+            </div>
+        </section>
+    </footer>
+    
+</body>
+</html>
