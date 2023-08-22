@@ -81,11 +81,6 @@ input{
     font-size: 250%;
     }
 
-.linea{
-    display: flex;
-            flex-direction: row;
-}
-
     /* uso de flex para el footer del index */
 @media screen and (min-width:600px) {
     
