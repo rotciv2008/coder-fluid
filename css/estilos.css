@@ -29,11 +29,13 @@ a{
     color: white;
     background-color: dimgray;
     }
-
+a:hover{
+    background-color: rgb(233, 173, 173);
+}
 .letra{
         font-size: 25px;
         background-color: dimgrey;
-        color: rgb(79, 231, 168);
+        color: rgb(221, 240, 113);
     }
 
 .imagenes{    
