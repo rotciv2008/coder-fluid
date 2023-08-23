@@ -10,7 +10,6 @@ html{
 body{
     color:rgb(230, 219, 158);
     background-color: rgba(10, 10, 10, 0.959);
-    /* font-family: 'Edu SA Beginner',cursive,sans-serif; */
     }
 
 h1, h3{
@@ -43,8 +42,8 @@ a:hover{
     grid-template-columns: repeat(auto-fit, minmax(370px,1fr));
     grid-template-rows:auto;
     gap: 10px;
-    width: 100%; /* Porcentaje */
-    max-width: 100%; /* Para asegurarse de que la imagen no se desborde */
+    width: 100%; 
+    max-width: 100%; /* Para asegurarse que la imagen no se desborde */
     margin: 3px;   
 
 }
@@ -75,7 +74,6 @@ label{
     font-size: 250%;
     padding-left: 5px;
     margin-bottom: 5px;
-    /* display: block; */
     }
 
 input{
