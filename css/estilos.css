@@ -45,7 +45,6 @@ a:hover{
     width: 100%; 
     max-width: 100%; /* Para asegurarse que la imagen no se desborde */
     margin: 3px;   
-
 }
 
 .imagenes img{
@@ -56,6 +55,14 @@ a:hover{
     padding: 5px;
     justify-self: center;
          }
+
+main p{
+    background-color: rgb(78, 34, 97);
+    font-size: 20px;
+    text-align: center;
+    margin: 5px;
+
+}
 
 p{
     color: white;
